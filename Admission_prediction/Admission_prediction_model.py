@@ -8,7 +8,7 @@ import pickle
 from sklearn import metrics
 
 # read the input file
-df = pd.read_csv('C:\\Users\\navan\\datascience\\ML models\\Machine_learning_1\\Admission_prediction.csv')
+df = pd.read_csv('Admission_prediction.csv')
 
 # drop the serial no
 df.drop("Serial No.", axis='columns', inplace=True)
